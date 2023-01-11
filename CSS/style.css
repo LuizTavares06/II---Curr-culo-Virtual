@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 99vw;
+  height: 100vh;
+}
+.esquerda{
+  height: 99vh;
+  width: 29vw;
+  background-color: #2F4F4F;
+  position: relative;
+  display: inline-block;
+  
+}
+
+.conteudoEsquerda{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.foto{
+  border: 4px solid #558d8d;
+  max-width: 50%; 
+  max-height: 50%;
+  border-radius: 50%;
+  margin-left: 18px;
+}
+
+.links{
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 4%;
+  font-size: larger;
+}
+
+.paragrafoLinks{
+  margin: 10px;
+  
+}
+
+.paragrafoLinks:hover {
+  text-decoration: underline;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.direita{
+  width: 69%;
+  display: inline-block;
+  position: relative;
+  top: -65%;
+  left: 5%;
+  background-color: blanchedalmond;
+}
+
+.conteudoDireita{
+  position: absolute;
+  
+}
+
+.conteudoDireitaObjetivos{
+  position: absolute;
+  
+}
+
+.conteudoDireitaConhecimentos{
+  position: absolute;
+  
+}
+
+.nomeEndereco{
+  margin-bottom: 20px;
+}
+
+.nome{
+  color: #558d8d;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.endereco{
+  font-size: larger;
+}
+
+.sobre{
+  margin-top: 20px;
+}
+
+.linksContato{
+  margin-top: 10px;
+  display: flex;
+}
+
+.linkContato:hover{
+  color: #2F4F4F
+}
+
+i{
+  margin-right: 15px;
+}
+
+label{
+  margin: 20px;
+}
+
+
+
+
+
